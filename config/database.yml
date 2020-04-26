@@ -83,7 +83,7 @@ test:
 #
 production:
   <<: *default
-  database: Covid19_production
+  database: Covid19
   username: Covid19
-  password: <%= ENV['Covid19_DATABASE_PASSWORD'] %>
+  password: Covid19
   pool: 10
